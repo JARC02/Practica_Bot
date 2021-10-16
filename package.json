@@ -1,16 +1,19 @@
 {
-  "name": "Practica_Bot",
+  "name":"Practica_Bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts --exec ts-node --ignore *.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^16.11.0",
+    "@types/node-schedule": "^1.3.2",
+    "@types/qrcode-terminal": "^0.12.0",
     "nodemon": "^2.0.13",
     "ts-node": "^10.3.0"
   },
